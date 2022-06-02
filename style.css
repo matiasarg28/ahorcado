@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    background-color: #e8e8e8;
+    background-image: url(/img/dibujos/pngegg.png);
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/* ---OCULTO--- */
+
+#a_jugar {
+    display: none;
+}
+
+/*---INICIO-- */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#inicio {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 150px;
+    margin-top: 45px;
+}
+
+svg {
+    width: 150px;
+    height: 125px;
+    margin-left: -29px;
+    margin-right: -50px;
+}
+
+
+button {
+    
+    padding: 0.7em 1.7em;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+
+    margin-right: 25px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #090909;
+}
+
+button:hover {
+    transform: translateY(5px);
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+button a:hover {
+    color: rgba(255, 0, 0, 0.695);
+}
+
+/* ----NUEVO JUEGO---- */
+
+
+
+
+/* ----FOOTER---- */
+
+footer {
+    background-color: #090909ef;
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__copyright {
+    color: white;
+    font-size: 18px;
+    margin: 0px 25px;
+    letter-spacing:1.5px;
+}
+
+.footer__redes a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+    font-size: 25px;
+}
+
